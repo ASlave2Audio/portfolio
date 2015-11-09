@@ -32,7 +32,37 @@ box-shadow: 0px 3px 0px rgba(62, 123, 62, 0.6);
 	opacity: .35;
 }
 
-.img-responsive:hover {
+.m-right-panel {
+	padding: 0 40px 0 40px;
+	background-color: #2F3238; 
+}
+
+hr {
+	border-color:#26292E;
+}
+.sidebar {
+	background-color:  rgb(59, 61, 64);
+	position: fixed;
+    bottom: 0;
+    top:0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    padding: 20px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-right: 1px solid #2e6da4;
+}
+.sidebar .img-work {
+	padding: 10px 5px;
+}
+.img-work:hover {
+	opacity: .7;
+	background-color: #4472B9;
+	box-shadow: 1px 1px solid #4472B9;
+}
+
+.selected {
 	opacity: .7;
 	background-color: #4472B9;
 	box-shadow: 1px 1px solid #4472B9;
@@ -56,6 +86,27 @@ p {
 	margin: 0 !important;
 }
 
+.margin-bottom-5 {
+	margin-bottom: 5px;
+}
+
+.margin-bottom-10 {
+	margin-bottom: 10px;
+}
+
+.margin-bottom-20 {
+	margin-bottom: 20px;
+}
+
+.margin-top-10 {
+	margin-top:10px;
+}
+.margin-top-20 {
+	margin-top:20px;
+}
+.margin-top-30 {
+	margin-top:30px;
+}
 /* =
    Bouncy Arrow Begin
 = */
@@ -109,7 +160,6 @@ body
 	position: absolute;
 	color: #BDBEBF;
 	overflow-x: hidden;
-
 	background: black;
 	width:100%;
 }

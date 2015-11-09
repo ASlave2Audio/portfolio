@@ -7,27 +7,20 @@
 <html lang="en-US">
 
 <head>
-
     <!-- Meta Tags -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
     <title>Portfolio | Josh Cooley</title>
-
     <meta name="description" content="" />
-
     <!-- Mobile Specifics -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="HandheldFriendly" content="true" />
     <meta name="MobileOptimized" content="320" />
-
     <!-- Mobile Internet Explorer ClearType Technology -->
     <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
     <!-- Bootstrap -->
     <link href="_include/css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Main Style -->
     <link href="_include/css/main.css" rel="stylesheet">
-
     <!-- Smooth State Styles-->
     <link href="_include/css/normalize.css" rel="stylesheet" type="text/css" />
     <link href="_include/css/keyframes.css" rel="stylesheet" type="text/css" />
@@ -36,68 +29,420 @@
     <!-- Supersized -->
     <link href="_include/css/supersized.css" rel="stylesheet">
     <link href="_include/css/supersized.shutter.css" rel="stylesheet">
-
     <!-- FancyBox -->
     <link href="_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
-
     <!-- Font Icons -->
     <link href="_include/css/fonts.css" rel="stylesheet">
-
     <!-- Shortcodes -->
     <link href="_include/css/shortcodes.css" rel="stylesheet">
-
     <!-- Responsive -->
     <link href="_include/css/bootstrap-responsive.min.css" rel="stylesheet">
     <link href="_include/css/responsive.css" rel="stylesheet">
-
     <!-- Custom CSS -->
     <link href="_include/css/custom.css" rel="stylesheet">
-
     <!-- Google Font -->
     <link href='_include/css/opensans.css' rel='stylesheet' type='text/css'>
-
     <!-- Fav Icon -->
     <link rel="shortcut icon" href="#">
     <link rel="apple-touch-icon" href="#">
     <link rel="apple-touch-icon" sizes="114x114" href="#">
     <link rel="apple-touch-icon" sizes="72x72" href="#">
     <link rel="apple-touch-icon" sizes="144x144" href="#">
-
     <!-- Modernizr -->
     <script src="_include/js/modernizr.js"></script>
-
     <!-- Smooth State-->
     <script src="_include/js/jquery.smoothState.js"></script>
-
     <!-- Analytics -->
     <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'YOUR ID']);
+    _gaq.push(['_trackPageview']);
 
-        var _gaq = _gaq || [];
-        _gaq.push(['_setAccount', 'YOUR ID']);
-        _gaq.push(['_trackPageview']);
-
-        (function () {
-            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-        })();
-
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
     </script>
     <!-- End Analytics -->
 </head>
- <body>
-        
-     <div class="detail m-scene" id="main">
-         <div class="m-detail-layout">
-         <div class="row">
-             <div class="col-xs-4 col-sm-2 m-aside scene_element scene_element--fadein">
-                 <h3 class="aside_title">
-                     <a href="index.html" class="m-button">
-                         <span class="txt">←</span>
-                     </a>
 
-                 </h3>
-                  <div class="row">
+<body>
+    <div class="detail m-scene container-fluid" id="work">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-xs-4 col-sm-3 col-md-2 scene_element scene_element--fadeinup sidebar">
+                <a class="btn btn-primary btn-block" href="./index.html"><strong>← Back</strong> </a>
+                <div class="col-xs-12">
+                    <a href="#icm" class="hover-wrap"><img class="img-responsive img-work" src="_include/img/work/thumbs/ICMRedesign.png" alt="After researching over 40 users, personas were created to reflect our user base. Wireframes then followed with high fidelity design and code.">
+                    </a>
+                </div>
+                <div class="col-xs-12">
+                    <a href="#moose" class="hover-wrap"><img class="img-responsive img-work" src="_include/img/work/thumbs/MOOSE.png" alt="The goal of Moose was to establish the interaction design for an application that would allow musicians to collaborate remotely with each other. We gathered data on real-time collaboration sessions and virtual collaborations, affinity diagrammed our findings, and iterated fervently through sketches and wireframes."></a>
+                </div>
+                <div class="col-xs-12">
+                    <a href="#bir" class="hover-wrap"><img class="img-responsive img-work" src="_include/img/work/thumbs/bir.jpg" alt="BIR is a site that addressed a crucial problem in today's society. Where to find local craft brew, and what about it? After competetive analysis, low-fi mockups were followed by final designs and code"></a>
+                </div>
+                <div class="col-xs-12">
+                    <a href="#ul" class="hover-wrap"><img class="img-responsive img-work" src="_include/img/work/thumbs/UL1.png" alt="Website redesign for the University of Louisiana. Started with personas. Established information Architecture and navigation through competitive analysis. Iteratively designed and coded webpage "></a>
+                </div>
+                <div class="ilCovo">
+                    <a href="#ilCovo" class="hover-wrap"><img class="img-responsive img-work" src="_include/img/work/thumbs/IlCovo.png" alt="A website for an up-scale beach front Italian restaurant in La Jolla, California. Designs were done iteratively are were based on personas and contextual inquiries"></a>
+                </div>
+                <div class="col-xs-12">
+                    <a href="#citisense" class="hover-wrap"><img class="img-responsive img-work" src="_include/img/work/thumbs/citisense1.png" alt="A smartphone application that provides real-time data for air pollution."></a>
+                </div>
+            </div>
+            <!-- Main Content -->
+            <div class="col-xs-8 col-sm-9 col-md-10 col-xs-offset-4 col-sm-offset-3 col-md-offset-2 m-right-panel scene_element scene_element--fadeinup scene_element--fadeinright-wide page ">
+                <div  id="icm">
+                    <h2> Background Check Redesign </h2>
+                    <h4><strong> Contextual Inquiry - User Testing - Information Architecture - Interaction Design - Prototyping - Visual Design</strong></h4>
+                    <p><strong>Problem: </strong>The sole way the company was understanding its users was through analytics, leaving a void in understanding of who their users were, what they wanted, and what prohibited them from reaching their goals. The team was struggling to innovate new ways to obtain and retain users.
+                    </p>
+                </div>
+                <div>
+                    <h3>1. Survey</h3>
+                    <p class="margin-bottom-10">I coordinated with an email marketing team member to compose a SurveyMonkey email blast to our current registered customers. This was to get a good high-level idea of our user demographics.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <img class="img-responsive" src="./_include/img/work/full/ICM/icmChart1.png"></img>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <img class="img-responsive" src="./_include/img/work/full/ICM/image18.png"></img>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <img class="img-responsive" src="./_include/img/work/full/ICM/image16.png"></img>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3 class="margin-top-10">2. Contextual Inquiry</h3>
+                    <p class="margin-bottom-10">Using a web service called <a href="https://ethn.io/" target="_blank">ethn.io</a>, I set up a remote user testing environment to talk to real users who were about to use the product for the first time. I recorded and annotated all tests (40 in total) via Google Hangout and GoToMeeting. I used the “think-aloud” process, where I asked users to navigate through the site as if I wasn’t there but annunciate their thoughts out loud. I would then drill down into interesting commentary or cognitive phenomena. After every 5 tests, I compiled and presented the results of my findings that included: usability errors, bugs, video snips of interesting interactions, and trends that several users repeated. You can view one of my presentations <a href="http://prezi.com/xd1dpray9esz/?utm_campaign=share&utm_medium=copy&rc=ex0share" target="_blank">here</a>. (The video clips are blocked since I no longer have access to the private YouTube account where they were posted).</p>
+                    <div class="row">
+                        <div class="col-xs-4 col-xs-offset-4">
+                            <img class="img-responsive" src="./_include/img/work/full/ICM/ethnio.jpg"></img>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>3. Personas</h3>
+                    <p class="margin-bottom-10">Based on the survey data and research, I was able to whittle down our user base into four key personas as follows:</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6">
+                            <img class="img-responsive margin-bottom-10" src="./_include/img/work/full/ICM/Persona1.png"></img>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <img class="img-responsive margin-bottom-10" src="./_include/img/work/full/ICM/Persona2.png"></img>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <img class="img-responsive" src="./_include/img/work/full/ICM/Persona3.png"></img>
+                        </div>
+                        <div class="col-xs-12 col-sm-6">
+                            <img class="img-responsive" src="./_include/img/work/full/ICM/Persona4.jpg"></img>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>4. Affinity Diagram</h3>
+                    <p class="margin-bottom-10">After transcribing all of my comments, cognitive phenomena, ideas and observations into sticky notes, I hosted a week long session of affinity diagramming sessions to create what was known as “the wall” to figure out what were the key needs and pain points our users were having. Here’s a few snaps of some up close groupings:</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <img class="img-responsive" src="./_include/img/work/full/ICM/image07.png"></img>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <img class="img-responsive" src="./_include/img/work/full/ICM/image17.png"></img>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-4">
+                            <img class="img-responsive" src="./_include/img/work/full/ICM/image15.png"></img>
+                        </div>
+                        <p class="margin-10"> Some data yielded from the groupings.
+                            <div class="col-xs-12">
+                                <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image21.png"></img>
+                            </div>
+                            <div class="col-xs-12">
+                                <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image11.png"></img>
+                            </div>
+                            <p class="margin-top-10">
+                                To retain this data and to build on it for future research, I transcribed and organized all of my notes <a href="https://workflowy.com/s/6c3e7ba9-d837-5051-21fa-4c1f7a38ec71" target="_blank">here</a>. I recommend viewing if hundreds of lines of user feedback is how you’d like to spend your afternoon (If so, we should hang out).
+                    </div>
+                    <hr>
+                    <h3>5. Card Sort</h3>
+                    <p class="margin-bottom-10">To determine the best information architecture for the application, I recruited more users with ethn.io for a card sort study using Optimal Workshop’s Optimal Sort application. I received the <a href="https://accounts.optimalworkshop.com/optimalsort/4g3fzp6x/c22vr4pp/shared-results/93493f00960919de21546f2ba060db43" target="_blank">following data:</a></p>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image00.png"></img>
+                        </div>
+                        <p class="margin-top-10"> I used the best fit dendrogram to create the following navigation schema:</p>
+                        <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/icmFooter.png"></img>
+                    </div>
+                    <hr>
+                    <h3>6. Sketch</h3>
+                    <p class="margin-bottom-10">Sadly, many trees were sacrificed in the name of user experience to get this design to a state of my liking. I collaborated with a developer to ensure that my creativity didn’t run out of bounds. Some sketches that made that cut are as follows:</p>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image22.png"></img>
+                        </div>
+                        <div class="col-xs-6">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image25.png"></img>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>7. Wireframe/Prototype/Test</h3>
+                    <p class="margin-bottom-10">Using Axure, I digitized my sketches into more formal, mid-fidelity wireframes. I also incorporated basic interactivity so that I could run more user tests to identify any key bottlenecks at an early stage. The prototype can be found <a href="http://a2431j.axshare.com/#p=home&view=b" target="_blank">here</a> (Password: Jc8675309). This was revised several times after gaining feedback from users. Some screenshots provided as follows:</p>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image08.png"></img>
+                        </div>
+                        <div class="col-xs-8">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image20.png"></img>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image12.png"></img>
+                        </div>
+                        <div class="col-xs-8">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image13.png"></img>
+                        </div>
+                    </div>
+                
+                <hr>
+                <h3>7. Visual Design/Prototype/Test</h3>
+                <p class="margin-bottom-10">I then added the aesthetic layer to draw attention to desired interactions. Prototype can be found <a href="http://79gxff.axshare.com/#p=home&view=b" target="_blank">here</a>. Aesthetics were tweaked based on user feedback. Some screenshots provided as follows:</p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image03.png"></img>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image05.png"></img>
+                    </div>
+                    <div class="col-xs-8">
+                        <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image01.png"></img>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image23.png"></img>
+                    </div>
+                    <div class="col-xs-8">
+                        <img class="img-responsive margin-top-10" src="./_include/img/work/full/ICM/image26.png"></img>
+                    </div>
+                </div>
+                <hr>
+                <h3>Takeaway</h3>
+                <p> The design proposals were all phased in and A/B tested. The result yielded <strong>over a 40% increase in conversion rate.</strong> Further user tests confirmed a great decrease in frustration, and the customer support call center claims they had noticed a significant decrease in phone calls and negative reviews.</p>
+                </div>
+                <div  id="moose">
+                    <h2> MOOSE </h2>
+                    <h4><strong> Ethnography - User Testing - Interaction Design</strong></h4>
+                    <p><strong>Problem: </strong> There are many talented musicians all over the world, but we are often limited to collobarating with people in our immediate space. MOOSE was a design proposition to bring musicians together all over the world via the internet.
+                    </p>
+                </div>
+                <div>
+                    <h3> 1. Ethnography </h3>
+                    <p> We went out "Into the Wild" to observe how bands collaborate and what allows them to create musical synergy. We reconvened with our notes and compiled them to affinity diagram, in step 2 </p>
+                    <hr>
+                    <h3> 2. Affinity Diagram</h3>
+                    <p> We annotated our data on sticky notes and "walked the wall" until we found several trends in the way musicians were collaborating.
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <img class="img-responsive margin-top-10" src="./_include/img/work/full/Moose/moose4.jpg"></img>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-responsive margin-top-10" src="./_include/img/work/full/Moose/image00.png"></img>
+                            </div>
+                            <div class="col-xs-3">
+                                <img class="img-responsive margin-top-10" src="./_include/img/work/full/Moose/image03.png"></img>
+                            </div>
+                        </div>
+                
+                <hr>
+                <h3>3. Mock User Testing </h3>
+                <p class="margin-top-10"> To Simulate a remote musical session, we created a mock collaboration session using skype to observe issues and interactions. </p>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img class="img-responsive margin-top-10" src="./_include/img/work/full/Moose/moose3.png"></img>
+                    </div>
+                </div>
+                <hr>
+                <h4>4. Interaction Design </h4>
+                <div class="row">
+                    <div class="col-xs-2 col-sm-3">
+                        <img class="img-responsive" src="./_include/img/work/full/Moose/image01.png"></img>
+                    </div>
+                    <div class="col-xs-2 col-sm-3">
+                        <img class="img-responsive" src="./_include/img/work/full/Moose/image02.png"></img>
+                    </div>
+                    <div class="col-xs-2 col-sm-3">
+                        <img class="img-responsive" src="./_include/img/work/full/Moose/image04.png"></img>
+                    </div>
+                    <div class="col-xs-2 col-sm-3">
+                        <img class="img-responsive" src="./_include/img/work/full/Moose/moose2.png"></img>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-2 col-sm-3">
+                        <img class="img-responsive margin-top-10" src="./_include/img/work/full/Moose/moose5.png"></img>
+                    </div>
+                    <div class="col-xs-2 col-sm-3">
+                        <img class="img-responsive margin-top-10" src="./_include/img/work/full/Moose/moose6.png"></img>
+                    </div>
+                    <div class="col-xs-2 col-sm-3">
+                        <img class="img-responsive margin-top-10" src="./_include/img/work/full/Moose/moose7.png"></img>
+                    </div>
+                    <div class="col-xs-2 col-sm-3">
+                        <img class="img-responsive margin-top-10" src="./_include/img/work/full/Moose/moose8.png"></img>
+                    </div>
+                </div>
+                </div>
+                <div  id="bir">
+                    <h2> BIR - Beer Information Relay </h2>
+                    <h4><strong> Competetive Analysis - Interaction Design - Visual Design - Development </strong></h4>
+                    <p><strong>Problem: </strong> San Diego has a serious dillema. With all the craft beer, where can we find it all? BIR aims to address this critical issue.
+                    </p>
+                </div>
+                <div>
+                    <h3>1. Competetive Analysis </h3>
+                    <p class="margin-top-10"> We began by observing other beer sites, how they were layed out, what made them effective/inneffective. </p>
+                    <hr>
+                    <h3>2. Interaction Design</h3>
+                    <p class="margin-top-10"> Made low fidelity concepts of what the layout and visualization would be. </p>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/Bir/bir1.png"></img>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>3. Visual Design/Development</h3>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/Bir/bir2.png"></img>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/Bir/bir3.png"></img>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/Bir/bir4.png"></img>
+                        </div>
+                    </div>
+                </div>
+                <div  id="ul">
+                    <h2> University of Louisiana </h2>
+                    <h4><strong> Personas- Competetive Analysis - Information Architecture - Interaction Design - Visual Design - Development </strong></h4>
+                    <p><strong>Problem: </strong> U of L's website was hard to look at and extremely hard to navigate.
+                    </p>
+                </div>
+                <div>
+                    <h3>1. Competetive Analysis </h3>
+                    <p class="margin-top-10"> We began by observing other successful university sites, how they were layed out, what made them effective/inneffective. We came up with the following IA as a result </p>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/UL/UL7.png"></img>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>2. Personas</h3>
+                    <p class="margin-top-10"> Created hypothetical scenarios of who we imaged our users would be</p>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/UL/UL6.png"></img>
+                        </div>
+                        <div class="col-xs-6">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/UL/UL8.png"></img>
+                        </div>
+                    </div>
+                    <h3>3. Interaction Design</h3>
+                    <p class="margin-top-10"> Made mid fidelity concepts of what the layout and visualization would be. </p>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/UL/image07.png"></img>
+                        </div>
+                        <div class="col-xs-6">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/UL/image09.png"></img>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>3. Visual Design/Development</h3>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/UL/UL1.png"></img>
+                        </div>
+                        <div class="col-xs-6">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/UL/UL4.png"></img>
+                        </div>
+                    </div>
+                </div>
+                <div  id="ilCovo">
+                    <h2> University of Louisiana </h2>
+                    <h4><strong> Personas- Interaction Design - Visual Design - Development </strong></h4>
+                    <p><strong>Problem: </strong> A new fine dining restaurant opened up in downtown La Jolla and needed a site that would encapsulate both it's daytime restaurant and nightime lounge vibes respectively.
+                    </p>
+                </div>
+                <div>
+                    <h3>1. Personas</h3>
+                    <p> After talking to the owner and several visitors, we created personas. Here are a few. </p>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/ilCovo/IlCovo2.png"></img>
+                        </div>
+                        <div class="col-xs-6">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/ilCovo/IlCovo5.png"></img>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>2. Interaction Design</h3>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/ilCovo/IlCovo3.png"></img>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3>3. Visual Design + Developement</h3>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/ilCovo/IlCovo4.png"></img>
+                        </div>
+                    </div>
+                </div>
+                <div  id="citisense">
+                    <h2> Citisense </h2>
+                    <h4><strong> Storyboarding - Visual Design </strong></h4>
+                    <p><strong>Problem: </strong> Bill Buxton created an innovative technology that used smartphones to detect air quality. There was no UI to effectively display the data these phones collected.
+                    </p>
+                </div>
+                <div>
+                    <h3> 1. Storyboard </h3>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/citisense2.png"></img>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3> 2. Visual Design </h3>
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <img class="img-responsive margin-top-10" src="./_include/img/work/full/citisense4.png"></img>
+                        </div>
+                        <div class="col-xs-6">
+                        <img class="img-responsive margin-top-10" src="./_include/img/work/full/citisense1.png"></img>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--  <div class="detail m-scene container-fluid" id="work">
+        <div class="m-detail-layout">
+            <div class="row">
+                <div class="col-xs-4 col-sm-3 col-md-2 sidebar scene_element scene_element--fadein">
+                    <h3 class="aside_title">
+                     <a href="index.html" class="m-button">
+                         <button class="btn btn-primary btn-block">←</button>
+                     </a>
+                </h3>
                     <div class="col-xs-12">
                         <a href="./work.html" class="hover-wrap"><img class="img-responsive" src="_include/img/work/thumbs/ICMRedesign.png" alt="After researching over 40 users, personas were created to reflect our user base. Wireframes then followed with high fidelity design and code.">
                         </a>
@@ -117,15 +462,14 @@
                     <div class="col-xs-12">
                         <a href="./work.html" class="hover-wrap"><img class="img-responsive" src="_include/img/work/thumbs/citisense1.png" alt="A smartphone application that provides real-time data for air pollution."></a>
                     </div>
-
                 </div>
-             </div>
-             <div class="m-right-panel m-page scene_element scene_element--fadeinup scene_element--fadeinright-wide">
-                <div class="page">
-                 <div class="row">
-                    <div class="col-xs-12">
-                        <h2> Background Check Redesign </h2>
-                        <h4> - User Research - Information Architecture - Interaction Design - Prototyping - Visual Design
+            </div>
+            <div class="m-right-panel m-page scene_element scene_element--fadeinup scene_element--fadeinright-wide">
+                <div >
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h2> Background Check Redesign </h2>
+                            <h4> - User Research - Information Architecture - Interaction Design - Prototyping - Visual Design
                     </div>
 
 
@@ -172,47 +516,44 @@
                  </div>
              </div>
          </div>
-    </div>
-     </div>
+    </div> -->
+    <footer>
+        <p class="credits">&copy;2015 Josh Cooley - Last Edited 9/1/15</p>
+    </footer>
+    <!-- End Footer -->
+    <!-- Back To Top -->
+    <a id="back-to-top" href="#">
+        <i class="font-icon-arrow-simple-up"></i>
+    </a>
+    <!-- End Back to Top -->
+    <!-- Modals -->
+    <!-- Js -->
+    <!-- Js -->
+    <script src="_include/js/jquery.min.js"></script>
+    <!-- jQuery Core -->
+    <script src="_include/js/jquery.smoothState.js"></script>
+    <!-- SmoothState Core -->
+    <script src="_include/js/functions.js"></script>
+    <script src="_include/js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="_include/js/supersized.3.2.7.min.js"></script>
+    <!-- Slider -->
+    <script src="_include/js/waypoints.js"></script>
+    <!-- WayPoints -->
+    <script src="_include/js/waypoints-sticky.js"></script>
+    <!-- Waypoints for Header -->
+    <script src="_include/js/jquery.isotope.js"></script>
+    <!-- Isotope Filter -->
+    <script src="_include/js/jquery.fancybox.pack.js"></script>
+    <!-- Fancybox -->
+    <script src="_include/js/jquery.fancybox-media.js"></script>
+    <!-- Fancybox for Media -->
+    <script src="_include/js/plugins.js"></script>
+    <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+    <script src="_include/js/main.js"></script>
+    <!-- Default JS -->
+    <!-- End Js -->
+    <!-- End Js -->
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <footer>
-            <p class="credits">&copy;2015 Josh Cooley - Last Edited 9/1/15</p>
-        </footer>
-        <!-- End Footer -->
-        <!-- Back To Top -->
-        <a id="back-to-top" href="#">
-            <i class="font-icon-arrow-simple-up"></i>
-        </a>
-        <!-- End Back to Top -->
-        <!-- Modals -->
-        <!-- Js -->
-     <!-- Js -->
-     <script src="_include/js/jquery.min.js"></script> <!-- jQuery Core -->
-     <script src="_include/js/jquery.smoothState.js"></script> <!-- SmoothState Core -->
-     <script src="_include/js/functions.js"></script>
-     <script src="_include/js/bootstrap.min.js"></script> <!-- Bootstrap -->
-     <script src="_include/js/supersized.3.2.7.min.js"></script> <!-- Slider -->
-     <script src="_include/js/waypoints.js"></script> <!-- WayPoints -->
-     <script src="_include/js/waypoints-sticky.js"></script> <!-- Waypoints for Header -->
-     <script src="_include/js/jquery.isotope.js"></script> <!-- Isotope Filter -->
-     <script src="_include/js/jquery.fancybox.pack.js"></script> <!-- Fancybox -->
-     <script src="_include/js/jquery.fancybox-media.js"></script> <!-- Fancybox for Media -->
-     <script src="_include/js/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
-     <script src="_include/js/main.js"></script> <!-- Default JS -->
-     <!-- End Js -->
-        <!-- End Js -->
-    </body>
 </html>

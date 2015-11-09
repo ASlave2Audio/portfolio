@@ -25,6 +25,13 @@ CHAKRA.mobileNav = function(){
 	}
 }
 
+//Make Images Selected
+$('.img-responsive').click(function(){
+    $('.selected').removeClass('selected');
+    $(this).addClass('selected');
+});
+
+
 // Call the Event for Menu 
 CHAKRA.listenerMenu = function(){
 	$('#mobile-nav').on('click', function(e){
@@ -44,7 +51,7 @@ CHAKRA.listenerMenu = function(){
 //SmoothState
 	 (function ($) {
 		$('#main').smoothState();
-	})(jQuery);
+	});
 
 /* ==================================================
    Slider Options

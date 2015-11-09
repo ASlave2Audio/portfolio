@@ -7,6 +7,7 @@
  *
  */
 
+
 ;(function ( $, window, document, undefined ) {
   'use strict';
 
@@ -732,4 +733,8 @@
   /* expose the default options */
   $.fn.smoothState.options = defaults;
 
-})(jQuery, window, document);
+})
+
+// (jQuery, window, document);
+
+
